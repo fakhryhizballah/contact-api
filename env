@@ -1,0 +1,7 @@
+PORT=8000
+JWT_SECRET_KEY=""
+OAuth2=
+clientId=
+clientSecret=
+refreshToken=
+https://developers.google.com/oauthplayground/
