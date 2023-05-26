@@ -20,7 +20,7 @@ module.exports = {
       let config = {
         method: "get",
         url:
-          "https://people.googleapis.com/v1/people:searchContacts?readMask=names,emailAddresses,organizations,phoneNumbers&query=" +
+          "https://people.googleapis.com/v1/people:searchContacts?readMask=names,emailAddresses,photos,organizations,phoneNumbers&query=" +
           query.query,
         headers: {
           Authorization: "Bearer " + tokens.token,
